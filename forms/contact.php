@@ -27,8 +27,8 @@
   $contact->smtp = array(
     'host' => 'ssl://smtp.gmail.com',
     'username' => 'mattmurrayproductions@gmail.com',
-    'password' => 'oxeg hjcp hgki ydqs',
-    'port' => '465'
+    'password' => 'qqot tukd gsml wlwn',
+    'port' => '587'
   );
  
 

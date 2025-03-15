@@ -44,7 +44,7 @@
   --surface-color: #ffffff;
 }
 /* Matts New Form */
-#contactForm {
+ form {
   display: flex;
   flex-direction: column;
   justify-content: center;

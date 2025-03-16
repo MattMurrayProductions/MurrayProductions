@@ -46,7 +46,6 @@
 /* Matts New Form */
  form {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   max-width: 400px;
 }

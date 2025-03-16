@@ -44,7 +44,7 @@
   --surface-color: #ffffff;
 }
 /* Matts New Form */
- form {
+ .form {
   display: flex;
   justify-content: center;
   max-width: 400px;

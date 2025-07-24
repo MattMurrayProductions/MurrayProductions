@@ -299,7 +299,6 @@ div.col-md-4 {
 
 #form-container {
     width: 100%;
-    max-width: 200px;
     display: flex;
     justify-content: center;
     margin: 0 auto 0.5%;

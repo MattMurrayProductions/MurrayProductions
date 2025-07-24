@@ -1,0 +1,363 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+body {
+    font-family: Montserrat;
+}
+
+h1 {
+    color: #9b9b9b;
+}
+
+h2 {
+    color: #9b9b9b;
+}
+
+h3 {
+    color: #9b9b9b;
+}
+
+p {
+    color: #9b9b9b;
+}
+
+.navbar-brand {
+    font-family: Montserrat;
+    font-weight: bold;
+}
+
+.navbar-brand img {
+    height: 2.5rem;
+}
+
+#hero {
+    width: 100%;
+    height: 100vh;
+    background: url(images/mm_bg.png)top center;
+    background-size: cover;
+    margin-bottom: 10%;
+}
+
+#caption {
+    color: white;
+    top: 30%;
+    position: relative;
+    text-align: center;
+    font-weight: lighter;
+}
+
+#caption h1 {
+    font-size: 3rem;
+    font-family: Montserrat;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 3%;
+    text-shadow: 1px 1px 10px black;
+}
+
+#caption h3 {
+    font-size: 1.5rem;
+    padding-bottom: 2%;
+    text-shadow: 2px 2px 5px black;
+    font-family: Montserrat;
+}
+
+#caption p {
+    
+    font-size: 1.5rem;
+    color: #ffffff;
+    font-weight: bold;
+    padding-bottom: 2%;
+    font-family: Montserrat;
+}
+
+#vidcol {
+    padding: 2%;
+}
+
+#work h3 {
+    font-family: Montserrat;
+    font-weight: bold;
+    margin-bottom: 2%;
+}
+
+.showreelbutton {
+    color: rgb(252, 180, 16);
+    background-color: rgb(0, 0, 0, 0.5);
+    border-radius: 20px;
+    border: solid 3px rgb(252, 180, 16);
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 2%;
+    text-shadow: 1px 1px 10px black;
+    transition: .5s ease background-color;
+    transition: .5s ease border-radius;
+    margin-top: 5%;
+}
+
+#hero .quote {
+    text-align: center;
+    position: relative;
+    top: 60%;
+}
+
+#hero .quote p {
+    color: white;
+    text-align: center;
+}
+
+#hero h3 {
+    color: white;
+    font-family: Montserrat;
+    font-weight: lighter;
+}
+
+#hero h3 p {
+    padding: 1%;
+}
+
+#about h1 {
+    text-align: center;
+    margin: 1% 0 3% 0;
+}
+
+#about p {
+    margin-bottom: 1%;
+}
+
+#about {
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+#about img {
+    height: 12rem;
+    margin-top: 12%;
+}
+
+#logo_gallery {
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    -webkit-filter: grayscale(100%);
+}
+
+#single_image {
+    padding: 4.5rem;
+}
+
+#about h3 {
+    font-family: Montserrat;
+    font-weight: bold;
+    text-align: center;
+    margin: 2.5% 0 3% 0;
+}
+
+.showreelbutton:hover {
+    color: white;
+    background-color: rgba(255, 255, 255, 0.2);
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 2%;
+    text-shadow: 1px 1px 10px black;
+}
+
+#work {
+    padding-top: 12%;
+    text-align: center;
+    padding-bottom: 15%;
+}
+
+#work h1 {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#workgallery {
+    padding: 2% 0;
+    margin: 2%;
+}
+
+#vidrow {
+    margin: 1% auto 1% auto;
+}
+
+.venobox {
+    padding: 0 2%;
+    margin: 0 auto;
+}
+
+.play-btn {
+    width: 100px;
+    position: relative;
+    top: -50%;
+    cursor: pointer;
+    transition: 0.5s;
+    opacity: 0
+}
+
+.col-md-6:hover .play-btn {
+    opacity: 0.5;
+}
+
+div.col-md-4 {
+    margin-bottom: 0%;
+}
+
+#exampleModal {
+    top: 20%;
+}
+
+.modal-dialog {
+    max-width: 800px;
+    margin: 30px auto;
+}
+
+.modal-body {
+    position: relative;
+    padding: 0px;
+}
+
+.close {
+    position: absolute;
+    right: -30px;
+    top: 0;
+    z-index: 999;
+    font-size: 2rem;
+    font-weight: normal;
+    color: #fff;
+    opacity: 1;
+}
+
+.modal-dialog {
+    max-width: 800px;
+    margin: 30px auto;
+}
+
+.modal-body {
+    position: relative;
+    padding: 0px;
+}
+
+.close {
+    position: absolute;
+    right: -30px;
+    top: 0;
+    z-index: 999;
+    font-size: 2rem;
+    font-weight: normal;
+    color: #fff;
+    opacity: 1;
+}
+
+#contact {
+    background: url(images/mm_bg_01.png)top center;
+    background-size: cover;
+    padding-top: 10%;
+    padding-bottom: 15%;
+}
+
+#status {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 500px;
+    padding: 0.5%;
+    margin-top: 2%;
+    border-radius: 8px;
+    font-family: Montserrat;
+    font-weight: bold;
+}
+
+#status.success {
+    background-color: rgb(194, 245, 117);
+    animation: status 4s ease forwards;
+}
+
+#status.error {
+    background-color: rgb(250, 129, 92);
+    color: white;
+    animation: status 4s ease forwards;
+}
+
+@keyframes status {
+    0% {
+        opacity: 1;
+        pointer-events: all;
+    }
+    90% {
+        opacity: 1;
+        pointer-events: all;
+    }
+    100% {
+        opacity: 0;
+        pointer-events: none;
+    }
+}
+
+#form-container {
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto 0.5%;
+    padding: 20px;
+    box-shadow: 0px 0px 20px #00000010;
+    background-color: #00000040;
+    border-radius: 3%;
+    font-family: Montserrat;
+}
+
+.form-group {
+    width: 100%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 1rem;
+}
+
+.form-group input, .form-group textarea {
+    width: 100%;
+    font-size: 1rem;
+    border: 2px solid rgba(110, 107, 107, 0.199);
+    border-radius: 2%;
+    margin-top: 5px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+#contact h3 {
+    color: white;
+    font-family: Montserrat;
+    text-shadow: 1px 1px 10px black;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+
+#contact label {
+    color: white;
+}
+
+#contact button {
+    width: 100%;
+    color: #ffffff;
+    background-color: rgb(252, 180, 16);
+    border-radius: 10px;
+    border: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 2%;
+    font-family: Montserrat;
+    transition: .5s ease background-color;
+    transition: .5s ease color;
+}
+
+#contact button:hover {
+    color: white;
+    background-color: rgba(255, 255, 255);
+    color: rgb(252, 180, 16);
+}

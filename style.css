@@ -301,12 +301,12 @@ div.col-md-4 {
 
 #form-container {
     width: 100%;
-   
+    max-width: 500px;
     display: flex;
     justify-content: center;
-    margin: 200 auto 0.5%;
+    margin: 0 auto 0.5%;
     padding: 20px;
-    box-shadow: 0px 0px 20px #00000020;
+    box-shadow: 0px 0px 20px #0000000;
     background-color: #00000040;
     border-radius: 3%;
     font-family: Montserrat;
@@ -323,7 +323,7 @@ div.col-md-4 {
     width: 100%;
     font-size: 1rem;
     border: 2px solid rgba(110, 107, 107, 0.199);
-    border-radius: 2%;
+    border-radius: 10%;
     margin-top: 5px;
 }
 

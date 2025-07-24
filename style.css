@@ -301,7 +301,7 @@ div.col-md-4 {
 
 #form-container {
     width: 100%;
-    max-width: 500px;
+    max-width: 700px;
     display: flex;
     justify-content: center;
     margin: 0 auto 0.5%;
@@ -320,7 +320,7 @@ div.col-md-4 {
 }
 
 .form-group input, .form-group textarea {
-    width: 100%;
+    width: 500px;
     font-size: 1rem;
     border: 2px solid rgba(110, 107, 107, 0.199);
     border-radius: 10%;
